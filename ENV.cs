@@ -6,9 +6,5 @@ namespace CSVInternal
         {
             return @".\Assets\Data\CSV\";
         }
-        public static bool VALIDATE()
-        {
-            return true;
-        }
     }
 }
