@@ -1,2 +1,2 @@
 # UnityCsvLoader
-My Library for loading CSV files as Unity Serialized Dictionaries
+My Library for loading CSV files as C# Dictionarys
