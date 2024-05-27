@@ -4,7 +4,7 @@ namespace CSVInternal
     {
         public static string PATH()
         {
-            return @".\Assets\Data\CSV\";
+            return @".\Assets\";
         }
     }
 }
