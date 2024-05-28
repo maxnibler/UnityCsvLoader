@@ -13,10 +13,6 @@ namespace Mnibler
         public static List<Dictionary<string, string>> LoadCSV(string filePath)
         {
             List<string> rawData = CSV.LoadCSV(filePath);
-            foreach(var data in rawData)
-            {
-                Debug.Log(data);
-            }
             List<Dictionary<string, string>> dictData = CSV.DataToDicts(rawData);
             return dictData;
         }
