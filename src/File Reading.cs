@@ -17,8 +17,11 @@ namespace CSVInternal
 
             using (StreamReader sr = new StreamReader(path))
             {
-                string newLine = sr.ReadLine();
-                csvData.Add(newLine);
+                string newLine;
+                while ((newLine = sr.ReadLine()) != null)
+                {
+                    csvData.Add(newLine);
+                }
             }
             return csvData;
         }
